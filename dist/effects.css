@@ -821,20 +821,6 @@ a span::before {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-@media only screen and (min-width: 768px) {
-  .ehover11 img {
-    min-height: 246px; } }
-
-@media only screen and (min-width: 992px) {
-  .ehover11 img,
-  .ehover12 img {
-    min-height: 215.80px; } }
-
-@media only screen and (min-width: 1200px) {
-  .ehover11 img,
-  .ehover12 img {
-    min-height: 195.7px; } }
-
 .ehover13 img {
   transition: all 0.35s; }
 
@@ -930,3 +916,15 @@ a span::before {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
+
+@media only screen and (min-width: 768px) {
+  .fix img {
+    min-height: 251px; } }
+
+@media only screen and (min-width: 992px) {
+  .fix img {
+    min-height: 215.80px; } }
+
+@media only screen and (min-width: 1200px) {
+  .fix img {
+    min-height: 195.7px; } }
