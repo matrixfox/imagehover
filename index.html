@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Image Hover</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS for the effects-->
+  <link href="dist/effects.min.css" rel="stylesheet">
+
+  <!-- Font Icons -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+
+  <style>
+  html {
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+  }
+
+  body {
+    font-family: colaborate-thinregular, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+    height: 100%;
+    margin: 0;
+    background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+    background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .navbar-inverse {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+    border-bottom: 1px solid #fff
+  }
+
+  .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+  }
+
+  .titlep {
+    letter-spacing: 0;
+    padding-bottom: 60px;
+    font-size: 18px
+  }
+
+  .page-header {
+    display: inline-block;
+    margin: 40px 0 20px;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 50px;
+  }
+  </style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <a class="navbar-brand" href="#">Hover gallery</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="http://matrixfox.com"><i class="fa fa-twitter fa-lg"></i> matrixfoxtard</a ></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-12 text-center">
+      <h1 class="page-header">Image hover effects</h1>
+      <p class="titlep">Click the link on the desired image hover effect to view the html and css code you can copy to use the effect</p>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+        <img class="img-responsive" src="assets/images/girl.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 1</h2>
+          <button class="info" data-toggle="modal" data-target="#modal1">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover2">
+        <img class="img-responsive" src="assets/images/p11.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 2</h2>
+          <button class="info" data-toggle="modal" data-target="#modal2">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover3">
+        <img class="img-responsive" src="assets/images/p13.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 3</h2>
+          <button class="info" data-toggle="modal" data-target="#modal3">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover4">
+        <img class="img-responsive" src="assets/images/p18.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 4</h2>
+          <button class="info" data-toggle="modal" data-target="#modal4">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover42">
+        <img class="img-responsive" src="assets/images/p20.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 4 v2</h2>
+          <button class="info" data-toggle="modal" data-target="#modal4v2">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1v2">
+        <img class="img-responsive" src="assets/images/p23.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 1 v2</h2>
+          <button class="info" data-toggle="modal" data-target="#modal1v2">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover5">
+        <img class="img-responsive" src="assets/images/p10.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 5</h2>
+          <button class="info" data-toggle="modal" data-target="#modal5">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover6">
+        <img class="img-responsive" src="assets/images/for.jpg" alt="">
+        <div class="overlay point" data-toggle="modal" data-target="#modal6">
+          <h2>Hover effect 6</h2>
+          <div class="rotate">
+            <p class="group1">
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </p>
+            <hr><hr>
+            <p class="group2">
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-dribbble"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover7">
+        <img class="img-responsive" src="assets/images/hand.jpg" alt="">
+        <div class="overlay point" data-toggle="modal" data-target="#modal7">
+          <h2>Hover effect 7</h2>
+          <p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover8">
+      <img class="img-responsive" src="assets/images/p9.jpg" alt="">
+        <div class="overlay point" data-toggle="modal" data-target="#modal8">
+          <h2>Hover effect 8</h2>
+          <p class="set1">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </p>
+          <hr><hr>
+          <p class="set2">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover9">
+        <img class="img-responsive" src="assets/images/p.jpg" alt="">
+        <div class="overlay">
+          <h2>Hover effect 9</h2>
+          <button class="info" data-toggle="modal" data-target="#modal9">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover10">
+        <img class="img-responsive" src="assets/images/p14.jpg" alt="">
+        <div class="overlay">
+          <button class="info" data-toggle="modal" data-target="#modal10">Show code</button>
+          <p class="icon-links">
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover11">
+        <img class="img-responsive" src="assets/images/p3.jpg" alt="">
+        <div class="overlay">
+          <h2>Effect 11</h2>
+          <button class="info nullbutton" data-toggle="modal" data-target="#modal11">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover12">
+      <img class="img-responsive" src="assets/images/p26.jpg" alt="">
+        <div class="overlay">
+          <h2>Effect 12</h2>
+          <button class="info nullbutton" data-toggle="modal" data-target="#modal12">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover13">
+        <img class="img-responsive" src="assets/images/p4.jpg" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <button class="info nullbutton" data-toggle="modal" data-target="#modal13">Show code</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover14">
+        <img class="img-responsive" src="assets/images/cac.jpg" alt="">
+        <div class="overlay">
+          <h2>lense effect</h2>
+          <button class="info nullbutton" data-toggle="modal" data-target="#modal14">Show code</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.row -->
+
+  <hr>
+
+</div><!-- /.container -->
+
+<!-- jQuery -->
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

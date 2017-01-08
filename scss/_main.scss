@@ -1,0 +1,80 @@
+// remove bootstrap padding so images sit right next to each other with no gaps
+.col-lg-3,
+.col-md-4,
+.col-sm-6,
+.col-xs-12 {
+  padding: 0;
+}
+
+// general styling for all the hovers
+.hover {
+  cursor: default;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  h2 {
+    background: $black-transparent;
+    color: $white;
+    font-size: 17px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  img {
+    display: block;
+    position: relative;
+  }
+
+  .overlay {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .info {
+    background-color: transparent;
+    border: 1px solid $white;
+    border-radius: 0;
+    color: $white;
+    display: inline-block;
+    margin: 50px 0 0;
+    padding: 7px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      box-shadow: 0 0 5px $white;
+    }
+  }
+
+  .nullbutton {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+}
+
+// remove the blue line that shows on modal buttons after you have open and close a modal
+.modal-open .modal,
+button:focus {
+  outline: none;
+}
+
+// styling so when hovering over a div that opens a modal the cursor changes to a pointer
+.point {
+  cursor: pointer;
+}
